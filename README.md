@@ -8,23 +8,31 @@ Responsive UI with React
 Backend API using Express.js
 Database management with PostgreSQL
 Fully deployed using Vercel
+<br>
 🛠️ Setup Instructions
 1️⃣ Clone the Repository
+<br>
 git clone https://github.com/your-username/feedback-app.git
 cd feedback-app
+<br>
 2️⃣ Backend Setup
 Navigate to the backend folder:
 cd backend
+<br>
 Install dependencies:
 npm install
 Create a .env file in the backend directory and add:
 DATABASE_URL=your_postgresql_connection_url
+<br>
 Start the backend server:
 npm run dev
+<br>
 Backend will run on: http://localhost:5000
+<br>
 3️⃣ Frontend Setup
 Navigate to the frontend folder:
 cd ../frontend
+<br>
 Install dependencies:
 npm install
 Update API_URL in src/App.js to use your deployed backend:
